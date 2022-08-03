@@ -25,6 +25,52 @@ public class ArithmeticOperatorExample {
 		System.out.println("result6 : " + result6);
 		System.out.println("result7 : " + result7);
 		
-	}
+		System.out.println();
+		
+		double a = (double) 5/3;
+		double b = (double) 5/8;
+		double c = (double) 49/5;
+		
+		double first = a - b;
+		double second = first * c;
+		
+		System.out.println(second);
 
+		double w = 5;
+		double x = (double) 11/6;
+	    double y = (double) 12/17;
+		double z = 3.25;
+		
+		first = z - x;
+		second = first * y;
+		double third = w - second;
+		
+		System.out.println(third);
+		
+		sum(8,7,5);
+		sum(1,9,5);
+		sum(5,6,6);
+		sum(4,7,1);
+		sum(7,5,5);		
+		System.out.println();
+		
+		avg("홍길동", 60, 70 ,85, 90, 45);
+		avg("박말순", 50, 75, 70, 60, 70);
+		avg("고장난", 55, 60, 64, 58, 90);
+		avg("도룡뇽", 80, 70, 63, 88, 78);
+		
+	}
+	
+	static void sum(int a, int b, int c) {
+		System.out.println(a + " + " + b + " + " + c + " = " + (a+b+c));
+	}
+	
+	static void avg(String name, int english, int math, int physics, int music, int athletic) {
+		
+		double sum = athletic + english + math + physics + music;
+		double result = sum / 5;
+		
+		System.out.println(name + " 평균 : " + result);
+	}
+		
 }
