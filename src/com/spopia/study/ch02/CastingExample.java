@@ -42,8 +42,6 @@ public class CastingExample {
 		// String -> int
 		int intValue3 = Integer.parseInt(stringValue); // 많이 사용
 		System.out.println("intValue3 (parseInt) : " + intValue3);
-		int intValue4 = Integer.valueOf(stringValue2);
-		System.out.println("intValue4 (valueOf) : " + intValue4);
 	}
 
 }
