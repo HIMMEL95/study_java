@@ -3,7 +3,6 @@ package com.spopia.study.ch04;
 public class ifExample2 {
 
 	public static void main(String[] args) {
-
 		int grade = 5;
 		int price = 100000;
 		
@@ -24,8 +23,8 @@ public class ifExample2 {
 			System.out.println("20% 할인적용가 : " + price);
 		}
 		else {
-			price *= 0.73;
-			System.out.println("27% 할인적용가 : " + price);
+			price *= 0.973;
+			System.out.println("2.7% 할인적용가 : " + price);
 		}
 	}
 
