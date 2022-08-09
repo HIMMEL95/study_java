@@ -3,7 +3,7 @@ package com.spopia.study.ch04;
 public class SwitchExample2 {
 
 	public static void main(String[] args) {
-		
+
 		int grade = 3, cost = 12000;
 		double salesCost = 0.0;
 		
