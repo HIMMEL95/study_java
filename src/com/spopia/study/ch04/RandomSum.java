@@ -1,6 +1,6 @@
 package com.spopia.study.ch04;
 
-import java.util.Random;
+//import java.util.Random;
 
 public class RandomSum {
 
