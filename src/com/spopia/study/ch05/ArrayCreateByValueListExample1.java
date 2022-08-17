@@ -16,13 +16,15 @@ public class ArrayCreateByValueListExample1 {
 		
 		System.out.println("누굴까 : " + name[1]);
 		
-		double sum = 0, avg = 0;
+//		화학 평균
+		
+		double sum = 0.0, avg = 0.0;
 		
 		for (int i=0; i<scoreChemistry.length; i++) {
 			sum += scoreChemistry[i];
 		}
 		
-		avg = sum / 5;
+		avg = sum / scoreChemistry.length;
 		
 		System.out.println("총점은 : " + sum + ", 평점은 : " + avg);
 	}
