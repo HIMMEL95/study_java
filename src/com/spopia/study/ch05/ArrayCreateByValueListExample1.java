@@ -18,7 +18,7 @@ public class ArrayCreateByValueListExample1 {
 		
 		double sum = 0, avg = 0;
 		
-		for (int i=0; i<=4; i++) {
+		for (int i=0; i<scoreChemistry.length; i++) {
 			sum += scoreChemistry[i];
 		}
 		
