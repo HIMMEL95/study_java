@@ -34,6 +34,7 @@ public class ArrayInArrayExample {
 			System.out.println(subject[j] + "과목의 평균 점수는 : " + ((double)sum/scores.length));
 		}
 		
+		System.out.println(Arrays.deepToString(scores));
 		
 		int[] temp = new int[3];
 		
