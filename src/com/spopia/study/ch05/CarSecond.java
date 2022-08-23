@@ -6,6 +6,8 @@ public class CarSecond {
 	int cc = 1600;
 	String name = "아반떼";
 	
+	
+	// 이렇게 하는 것을 오버로드라고 한다.
 	CarSecond() {
 	}
 	
