@@ -11,7 +11,7 @@ public class CarSecondExample {
 		
 		System.out.println("===============================");
 		
-		CarSecond carSecond2 = new CarSecond("쏘나타");
+		CarSecond carSecond2 = new CarSecond("투싼");
 		System.out.println("carSecond2.name : " + carSecond2.name);
 		System.out.println("carSecond2.cc : " + carSecond2.cc);
 		System.out.println("carSecond2.color : " + carSecond2.color);

@@ -7,7 +7,6 @@ public class CarSecond {
 	String name = "아반떼";
 	
 	CarSecond() {
-		// TODO Auto-generated constructor stub
 	}
 	
 	CarSecond(String name) {
