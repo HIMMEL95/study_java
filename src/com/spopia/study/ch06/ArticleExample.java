@@ -28,6 +28,16 @@ public class ArticleExample {
 		article5.print();
 		
 		System.out.println(Article.nationality);
+		System.out.println(Article.staticTest(20));
+		
+		Article article6 = new Article();
+		int result = article6.staticTest2(10);
+		System.out.println(result);
+		
 	}
 
 }
+
+
+
+

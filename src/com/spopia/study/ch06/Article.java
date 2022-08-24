@@ -33,4 +33,15 @@ public class Article {
 	}
 	
 	static String nationality = "대한민국";
+	
+	static int staticTest(int a) {
+		return a + 10;
+	}
+	
+	int staticTest2 (int a) {
+		return a + 2;
+	}
+	
+	
+
 }
