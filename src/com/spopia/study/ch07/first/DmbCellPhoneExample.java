@@ -30,5 +30,8 @@ public class DmbCellPhoneExample {
 		dmbCellPhone.receiveVoice("나도!!");
 		dmbCellPhone.hangUp();
 		dmbCellPhone.powerOff();
+		
+		dmbCellPhone.powerOn();
+		dmbCellPhone.powerOff();
 	}
 }
