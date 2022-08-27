@@ -7,6 +7,7 @@ public class LottoPlease {
 	public static void main(String[] args) {
 		
 		String[] oldNumber = {
+			"12/30/32/37/39/41",
 			"5/7/12/13/18/35",
 			"14/16/27/35/39/45",
 			"5/12/13/31/32/41",
